@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Prathyusha</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <!-- Add class of bg-light to nav element -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Prathyusha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    
+    <!-- main banner -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+    <section class="container-fluid section bgimage" id="home">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                <h2 class="hero_title">Hello , I am Prathyusha </h2>
+                <p class="hero_desc">I am a Fresher , looking for opportunities and contribute my work.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- about section -->
+    <section class="container mt-4 pt-4 section" id="about">
+        <h1 class="text-center">About Me</h1>
+        
+        <div class="row mt-4">
+            
+           
+
+            <div class="col-lg-6">
+                <p> I am a Final year student eager to contribute technical skills and innovative skills in developer/analyst role. As Part of my academics , I was introduced to various Technologies and I am intrested to work on real time applications and develop them. I was engaged in an internship for 3 months and gained hands-on experience. I was Introduced to various software development phases . I am open for an organization to contribute my skills and align to its vision and mission.  
+                </p>
+                <div class="row mt-3">
+                    <p> My skills are :</p>
+                    <div class="col-md-6">
+                        
+                        <ul>
+                            <li>Programming Languages : C, C++, Java, Python, html, css, javascript.</li>
+                            <li>DataBases: SQL (basics), PostgreSQL(familiarity).</li>
+                            <li>Management Tools : Atlassian - jira , Trello</li>
+                            <li>Version Control: Git, Github.</li>
+                            <li>Dev Tools: Intellijidea, AndroidStudio, Docker, WordPress.</li>
+                            <li>Operating Systems: Windows, Linux, Ubuntu, MacOS.</li>
+                            <li>Additional: Report making in Google Data Studio, Algebra and Statistical methods, Al.</li>
+                           <li>Soft Skills: Leadership skills, Time management, public speaking, Peer Tutoring ,Team work, Ability to Collaborate.</li> 
+
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects section-->
+    <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
+    <section class="container section" id="Projects">
+        <h1 class="text-center">Projects</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card ProjectsText">
+                    <div class="card-body">
+                       
+                        <h4 class="card-title mt-3">Speech Emotion Recognition</h4>
+                        <p class="card-text mt-3">Speech Emotion Recognition model using LSTM (Long Short-Term Memory) and MFCC (Mel Frequency Cepstral Coefficients). This combination likely enables the model to understand emotions conveyed in speech by analyzing specific frequency patterns. LSTM, known for its ability to capture long-range dependencies, coupled with MFCC, a representation of the speech signal, might grant your model a robust capability to recognize and classify various emotions accurately from speech data.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card ProjectsText">
+                    <div class="card-body">
+                        
+                        <h4 class="card-title mt-3">Good Vibes</h4>
+                        <p class="card-text mt-3"> It is a daily life application where it has 2 sections namely - Categories and quotations. It will help with the Quotations with particular categories . It also have a feature to generate a quotation each day and also adding them to favourites. As a part of my internship , I developed few features of this application.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card ProjectsText">
+                    <div class="card-body">
+                        
+                        <h4 class="card-title mt-3">Review Radar</h4>
+                        <p class="card-text mt-3"> Our project dives into sentiment analysis using data gathered from social media platforms, leveraging advanced techniques like RoBERTa, a variant of the Transformer model known for its powerful language understanding capabilities, alongside the Vader model, which specializes in sentiment analysis. By applying these models to social media text data, aiming to discern and categorize the sentiment—whether it's positive, negative, or neutral—embedded within the text. This approach likely enables a comprehensive understanding of public sentiment expressed across various social media channels, providing valuable insights into people's opinions and emotions within these platforms.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card ProjectsText">
+                    <div class="card-body">
+                       
+                        <h4 class="card-title mt-3">Random Quote Generator</h4>
+                        <p class="card-text mt-3"> A Random Quote Generator is capable of pulling quotes randomly from an API, a database, or simply from an array. We will be designing a Random Quote Generator from scratch using HTML, CSS, JavaScript, and type.fit API. The webpage displays a random quote from a collection and upon the click of a button, it randomly generates a new quote.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card ProjectsText">
+                    <div class="card-body">
+                       
+                        <h4 class="card-title mt-3">Number Guessing Game</h4>
+                        <p class="card-text mt-3"> A simple game where user needs to guess the number generated in 3 chances using clues given according to the number guessed.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+           
+        </div>
+    </section>
+
+    <!-- Certifications section-->
+    <section class="section" id="Certifications">
+        <div class="container mt-3">
+            <h1 class="text-center">Certifications</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                       
+                        <div class="card-body">
+                            <h4 class="card-title">Smart-Interviews Smart Coder</h4>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                       
+                        <div class="card-body">
+                            <h4 class="card-title">Google codejam participation certificate</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Agile Job simulation by JP Morgan </h4>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Product Management Fundamentals - Great Learning</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Participation certificate in flipkart Grid - 5.0</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Participation certificate in flipkart Grid - 5.0</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Cloud basics and machine learning from AWS</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+    <!-- contact section-->
+    <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
+    <section class="container mt-3 section" id="contact">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-4">
+           
+                <p>Contact options:</p>
+                <ul>
+                  <li>Email: prathyushavaddadi81@gmail.com</li>
+                  <li>Phone: +91 8247601447</li>
+                  <li>Social Media:
+                    <a href="https://www.linkedin.com/in/prathyusha-vaddadi-03b211265/" target="_blank">LinkedIn</a>,
+                    
+                  </li>
+                
+
+           
+        </div>
+        
+    </section>
+    
+    <!-- footer section-->
+    <footer class="container-fluid footer" id="footer">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+           
+            <a href="https://www.linkedin.com/in/prathyusha-vaddadi-03b211265/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+        </div>
+    </footer>
+    
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
